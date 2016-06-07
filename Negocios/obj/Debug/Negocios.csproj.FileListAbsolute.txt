@@ -1,0 +1,11 @@
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Negocios\bin\Debug\Negocios.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Negocios\bin\Debug\Negocios.pdb
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Negocios\bin\Debug\Datos.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Negocios\bin\Debug\Datos.pdb
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Negocios\obj\Debug\Negocios.csprojResolveAssemblyReference.cache
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Negocios\obj\Debug\Negocios.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Negocios\obj\Debug\Negocios.pdb
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Negocios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Negocios\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Negocios\bin\Debug\Entidades.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Negocios\bin\Debug\Entidades.pdb

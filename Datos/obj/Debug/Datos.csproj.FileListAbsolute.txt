@@ -1,0 +1,9 @@
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Datos\bin\Debug\Datos.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Datos\bin\Debug\Datos.pdb
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Datos\obj\Debug\Datos.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Datos\obj\Debug\Datos.pdb
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Datos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Datos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Datos\bin\Debug\Entidades.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Datos\bin\Debug\Entidades.pdb

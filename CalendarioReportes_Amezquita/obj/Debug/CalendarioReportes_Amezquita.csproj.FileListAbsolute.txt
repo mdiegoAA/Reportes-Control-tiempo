@@ -1,0 +1,13 @@
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\bin\CalendarioReportes_Amezquita.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\bin\CalendarioReportes_Amezquita.pdb
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\obj\Debug\CalendarioReportes_Amezquita.csprojResolveAssemblyReference.cache
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\obj\Debug\CalendarioReportes_Amezquita.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\obj\Debug\CalendarioReportes_Amezquita.pdb
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\bin\Datos.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\bin\Negocios.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\bin\Datos.pdb
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\bin\Negocios.pdb
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\bin\Newtonsoft.Json.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\bin\Newtonsoft.Json.xml
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\bin\Entidades.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\CalendarioReportes_Amezquita\bin\Entidades.pdb

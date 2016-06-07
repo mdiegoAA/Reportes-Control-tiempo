@@ -1,0 +1,4 @@
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Entidades\bin\Debug\Entidades.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Entidades\bin\Debug\Entidades.pdb
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Entidades\obj\Debug\Entidades.dll
+C:\Users\mdiego\Desktop\Publicacion\CalendarioReportes_Amezquita\Entidades\obj\Debug\Entidades.pdb
