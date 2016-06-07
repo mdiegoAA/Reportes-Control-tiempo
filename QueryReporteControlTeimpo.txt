@@ -1,0 +1,117 @@
+-- Procedimiento que obtiene el listado Clientes
+Create procedure [dbo].[obtenerListadoClientes] 
+as
+select distinct ProyectoId as ProyectoId ,NombreProyecto as NombreProyecto
+from Proyectos
+order by NombreProyecto asc
+---------------------------------------------------------
+Create procedure [dbo].[Sp_Amezquita_ListadoMesesxProyectoxServicioxMeses](
+	
+	@fechainicial varchar(100),
+	@fechaFinal varchar(100),
+	@proyectoId varchar(max),
+	@ServicioId varchar(max)
+
+)
+
+as
+
+SELECT distinct CONVERT(VARCHAR(10),ch.FechaInicio,104)
+FROM CarguesHoras ch
+where ch.ProyectoId = @proyectoId
+and ch.ServicioId = @ServicioId
+and ch.FechaInicio BETWEEN @fechainicial AND @fechaFinal
+group by ch.FechaInicio
+----------------------------------------------------------
+create procedure [dbo].[Sp_Amezquita_obtenerListadoClientes] 
+as
+select distinct ch.ProyectoId , p.NombreProyecto from CarguesHoras as ch  , Proyectos p
+where ch.ProyectoId = p.ProyectoId    
+order by p.NombreProyecto  
+----------------------------------------------------------
+create procedure [dbo].[Sp_Amezquita_ObtenerListadoServicioXcliente](
+	
+	@idProyecto varchar(max)
+
+)
+as 
+
+select distinct ch.ServicioId as ServicioId ,  s.NombreServicio NombreServicio from CarguesHoras as  ch  , Servicios s
+where  ch.ServicioId = s.ServicioId
+and ch.ProyectoId = @idProyecto
+order by s.NombreServicio
+-----------------------------------------------------------
+create procedure [dbo].[Sp_Amezquita_ObtenerMinutosxMesesxProyectoxServicioxMeses](
+	
+	@fechainicial varchar(100),
+	@fechaFinal varchar(100),
+	@proyectoId varchar(100),
+	@ServicioId varchar(100)
+)
+as
+ select (SUM(datediff(N,FechaInicio,FechaFin))) as minutos
+ FROM CarguesHoras
+ where FechaInicio BETWEEN @fechainicial AND @fechaFinal
+  and ProyectoId = @proyectoId
+ and ServicioId = @ServicioId
+-------------------------------------------------------------
+create procedure [dbo].[sp_Amezquita_SeleccionarMesXrango](
+	
+	@fechaInicio varchar(100),
+	@fechaFinal varchar(100),
+	@idProyecto varchar(max),
+	@idServicio varchar(max)
+
+)
+as
+
+select 
+ distinct   CAST(ch.FechaInicio as Date) as fecha 
+from CarguesHoras ch , Usuarios us
+where
+ch.ProyectoId = @idProyecto
+and ch.ServicioId = @idServicio
+and FechaInicio BETWEEN @fechaInicio AND @fechaFinal
+---------------------------------------------------------------
+create procedure [dbo].[sp_amezquita_traerEmpleadosxFecha_Cargo](
+	
+	@fechaInicial varchar(100),
+	@fechaFinal varchar(100),
+	@idProyecto varchar(max),
+	@idServicio varchar(max),
+	@idCargo varchar(max)
+)
+as 
+begin 
+select distinct  SUM((datediff(N,ch.FechaInicio,ch.FechaFin))) as Minutos,  u.Nombre as nombre , cg.CargoId as cargo
+from CarguesHoras ch , Usuarios u , Cargos cg
+where ch.ProyectoId = @idProyecto
+and ch.ServicioId = @idServicio
+and ch.UsuarioId = u.UsuarioId
+and u.CargoId = cg.CargoId
+and u.CargoId = @idCargo
+and ch.FechaInicio BETWEEN @fechaInicial AND @fechaFinal
+group by u.Nombre , cg.CargoId
+end
+---------------------------------------------------------------
+	
+	
+	@fechainicial varchar(100),
+	@fechaFinal varchar(100),
+	@idProyecto varchar(100),
+	@idServicio varchar(100)
+ 
+ )
+ as
+ select (SUM(datediff(N,ch.FechaInicio,ch.FechaFin))),c.NombreCargo , c.CargoId
+ from CarguesHoras ch , Usuarios us,Cargos c
+ where  ch.FechaInicio BETWEEN @fechainicial AND @fechaFinal
+and ch.ProyectoId = @idProyecto
+and ch.ServicioId = @idServicio
+and ch.UsuarioId = us.UsuarioId
+and c.CargoId = us.CargoId
+group by c.NombreCargo , c.CargoId
+
+
+
+
