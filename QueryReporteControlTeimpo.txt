@@ -94,6 +94,7 @@ and ch.FechaInicio BETWEEN @fechaInicial AND @fechaFinal
 group by u.Nombre , cg.CargoId
 end
 ---------------------------------------------------------------
+create procedure [dbo].[sp_amezquita_traerTiempoxfecha_cargo](
 	
 	
 	@fechainicial varchar(100),
